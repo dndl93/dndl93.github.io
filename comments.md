@@ -1,13 +1,32 @@
 ---
 layout: comments
+comments: true
 title: 댓글
 ---
 
-방문자 분들은 댓글 영역에 메시지를 남기실 수 있습니다~
+#### 방문자 분들은 댓글 영역에 메시지를 남기실 수 있습니다~
 
-- [w_weilan](https://blog.csdn.net/w_weilan)：旧的 CSDN 博客
-- [刻苦驴啊](https://blog.csdn.net/D5__J9)：大哥+舍友，很耐心的解决我很多问题~
-- [shadw3002](https://shadw3002.github.io)：同学+基友，常在一起交流技 ♂ 术
-- [水唐](https://yorkking.github.io)：同学+基友，热爱数学（自称为“紧跟大佬的菜鸡挣扎者”
-- [Ender](https://ender-coder.github.io)：可 ♂ 爱的学弟
-- [reeeeeeeeeein](https://reeeeeeeeeein.github.io/)：[专 业 演 员](https://wu-kan.cn/_posts/2019-11-04-%E5%86%8D%E8%A7%81-%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/)
+***
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://dndl93.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
