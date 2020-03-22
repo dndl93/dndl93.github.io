@@ -87,7 +87,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         />
         <script
           async="async"
-          src="https://cdn.jsdelivr.net/combine/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js,gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
+          src="/assets/js/pio.min.js"
           onload='
             if (screen.width > screen.height)
             {
@@ -110,8 +110,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 "mode": "fixed",
                 "hidden": true,
                 "content": {
-                  "link": ["https://jekyll-theme-WuK.wu-kan.cn"],
-                  "skin": ["다른 친구로 바꾸려고?", "잘 부탁해~"],
+                  "link": ["/"],
+                  "skin": ["다른 메이드로 바꾸시려고요?", "잘 부탁드려요 주인님!"],
                   "custom": [{
                     "selector": "a",
                     "type": "link",
@@ -235,7 +235,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       disable: false # 是否不显示sidebar
       avatar: # 侧边栏显示的头像
         enable: true
-        img: https://postfiles.pstatic.net/MjAyMDAzMjFfMjM2/MDAxNTg0NzE5NzAyMTg4.jPdzgWuk0SBNB1YaTT9RR9kF7xJeO3_qkRBRUhgXvbQg.Ib7x1IVZyvoe4jkpDXZJTBR5TKYWII9-5sPulNvYHYog.PNG.lop9877/%EC%9D%BC%EB%B3%B8_%EC%83%88_%EC%97%B0%ED%98%B8%EB%A5%BC_%EB%B0%9C%ED%91%9C%ED%95%98%EB%8A%94_%EB%A9%94%EA%B5%AC%EB%B0%8D___%EC%9C%A0%EB%A8%B8_%EA%B2%8C%EC%8B%9C%ED%8C%90___%EB%A3%A8%EB%A6%AC%EC%9B%B9.png?type=w580 # 头像的地址
+        img: /assets/image/logo2.png # 头像的地址
       nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
         - title: '<i class="fas fa-home fa-fw"></i> 홈'
           href: /
@@ -493,7 +493,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
   archive:
     posts_count:
       enable: true # 博文数量统计
-      alert: 블로그 게시물 # 提示语
+      alert: 개 # 提示语
   merger: # 打赏页，需要配置！
     append_to_head:
       - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
