@@ -464,26 +464,26 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
   comments:
     alert: | 
   post:
-    date: # 显示博文时间
+    date: # 게시 일 수
       enable: true
       alert: <i class="fas fa-calendar-day fa-fw"></i>
-    wordcount: # 统计全文字数
+    wordcount: # 단어 수
       enable: true
       alert: <i class="fas fa-file-word fa-fw"></i>
-      unit: 일
-    readtime: # 计算文章阅读时间
+      unit: 자
+    readtime: # 읽은 시간
       enable: true
       alert: <i class="fas fa-clock fa-fw"></i>
       unit: 분
-      divided_by: 300 # 正常人的阅读速度大概每分钟三百个字
-    visitor: # 需要引入并开启valine的visitor选项使之开始计数; 可能会和busuanzi统计的有出入
+      divided_by: 300 # 보통 사람들의 읽기 속도는 분당 약 300 단어입니다.
+    visitor: # 방문 수
       enable: true
       alert: <i class="fas fa-book-reader fa-fw"></i>
       unit: 명
     tags: # 显示博文标签
       enable: true
       alert: <i class="fas fa-tag fa-fw"></i>
-    copyright: | # 我的文章使用最宽松的知识共享协议：署名 4.0 国际 (CC BY 4.0)。您可以自由地：共享 — 在任何媒介以任何形式复制、发行本作品；演绎 — 修改、转换或以本作品为基础进行创作；在任何用途下，甚至商业目的。只要你遵守许可协议条款，许可人就无法收回你的这些权利。惟须遵守下列条件：署名 — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
+    copyright: | # 저작권 관련
       <br/>
       <i class="fab fa-creative-commons-by fa-fw"></i>
       <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.ko">CC BY 4.0</a>
@@ -492,48 +492,9 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
     count: true # 统计每个标签下文章的数量
   archive:
     posts_count:
-      enable: true # 博文数量统计
-      alert: 개 # 提示语
+      enable: true # 블로그 게시물 갯 수
+      alert: 개 # 단위
   merger: # 打赏页，需要配置！
-    append_to_head:
-      - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
-        <script> 
-          var usage = "payment";
-          var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
-          var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";
-          var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
-          var paypal = "https://paypal.me/wukan0621";
-          var myname = "WuK";
-          var profile = "https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320";
-          var multilingual = true;
-          var myname_hans = "吴坎";
-          var myname_hant = "吴坎";
-          var myname_eng = "WuK";
-          var title = "选择你的支付方式";
-          var subtitle = "跟随进一步的指示以向" + myname + "付款";
-          var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
-        </script>
-      - |
-        <meta
-          charset="utf-8"
-        />
-        <meta
-          name="viewport"
-          content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-        />
-        <meta
-          http-equiv="Content-Security-Policy"
-          content="upgrade-insecure-requests"
-        />
-      - | # merger的页面样式
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.21.1/assets/styles/style.min.css"
-        />
-        <script
-          src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
-          defer='defer'
-        ></script>
   home: # 用于生成ppt的模板，看不懂的话可以不用配置
     append_to_section_tag:
       - key: data-markdown
@@ -580,7 +541,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
     append_before:
       - | # 腾讯公益
         <script
-          src='https://qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js'
+          src='/'
           async='async'
           charset='utf-8'
           homePageUrl='/'
@@ -602,7 +563,7 @@ readme_index: # 缺失index.md和index.html时，使用README.md代替之
   with_frontmatter: true # 支持带有yaml头的README
 
 permalink: /_posts/:year-:month-:day-:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
-# timezone: Asia/Shanghai # 解决githubpage显示时间不正确的问题，见<https://www.iana.org/time-zones>
+# timezone: Asia/Seoul # 解决githubpage显示时间不正确的问题，见<https://www.iana.org/time-zones>
 # future: false # 不发布时间在未来的文章
 
 # limit_posts: 999 # 限制博文数量
