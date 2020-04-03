@@ -5,9 +5,10 @@ title: 보관
 
 블로그 게시물
 
-<body>
-<!-- SCM Music Player http://scmplayer.co -->
-<script type="text/javascript" src="http://scmplayer.co/script.js" 
-data-config="{'skin':'skins/simpleBlack/skin.css','volume':50,'autoplay':true,'shuffle':true,'repeat':1,'placement':'top','showplaylist':false,'playlist':[{'title':'%uC0AC%uB791%uD574%uC918 - nameless','url':'http://blogattach.naver.net/e772fb415a6c6ddbfd107d467e99e69a3b6a9544/20170409_15_blogfile/joy989898_1491731325942_131Zrz_mp3/Nameless-%BB%E7%B6%FB%C7%D8%C1%E0.mp3?type=attachment'}]}" ></script>
-<!-- SCM Music Player script end -->
-</body>
+<div id="cp_widget_8646614b-1ea0-4fb2-9f27-a89b689fe5c4">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_8646614b-1ea0-4fb2-9f27-a89b689fe5c4"; cpo["_fid"] = "AgLAOr-jspKK";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script>
