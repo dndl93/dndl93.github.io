@@ -542,7 +542,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             enable: true
             prepend: <i class="fas fa-tag fa-fw"></i>
           copyright:
-	    |
+	    | #
+	    <br/>
+	    <i class="fas fa-coffee fa-fw"></i>
+	    행복한 하루 되세요
             <br/>
             <i class="fab fa-creative-commons-by fa-fw"></i>
             <a
