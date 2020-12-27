@@ -3,7 +3,6 @@ description: | # 아바타 뒤에있는 정보 (html 형식), <br/> 줄 바꿈�
   안녕하세요<br/>
   환영합니다<br/>
   즐거운시간되세요<br/>
-                       <br/>
   ^^<br/>
   <a href="mailto:dndl93@gmail.com"><br/>
     <i class="fas fa-envelope"></i>
