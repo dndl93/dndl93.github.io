@@ -519,9 +519,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 }
               </style>
         comments: 
-	  provider: disqus
+	  provider: "disqus"
 	  disqus: 
-	    shortname: dndl93-github-io
+	    shortname: "dndl93-github-io"
         post:
           date: 
             enable: true
