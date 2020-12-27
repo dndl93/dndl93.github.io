@@ -518,9 +518,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   }
                 }
               </style>
-        comments: # 留言页
+        comments: 
+	  provider: "disqus"
+	  disqus: 
+	    shortname: "dndl93-github-io"
         post:
-          date: # 显示博文时间
+          date: 
             enable: true
             prepend: <i class="fas fa-calendar-day fa-fw"></i>
           wordcount: # 统计全文字数
@@ -676,4 +679,3 @@ kramdown: # 见<https://kramdown.gettalong.org/options.html>
 #kramdown:
 #  math_engine: mathjax
 #  syntax_highlighter: rouge
-disqus_shortname: dndl93-github-io
