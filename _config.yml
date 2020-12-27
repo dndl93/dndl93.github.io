@@ -6,8 +6,6 @@ description: | # 아바타 뒤에있는 정보 (html 형식), <br/> 줄 바꿈�
   ^^
   <img
     src="/assets/image/welcome.png"
-    width=100%
-    height=50
   ></img>
   <a href="mailto:dndl93@gmail.com"><br/>
     <i class="fas fa-envelope"></i>
