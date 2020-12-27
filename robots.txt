@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://dndl93.github.io/sitemap.xml
