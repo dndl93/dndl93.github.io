@@ -12,7 +12,7 @@ tags: [타르코프]
 
 **제작**  
 ![Technical documentation](/assets/image/tarkov/material/Lada_manual_icon.png) x1 Technical documentation + ![Weapon parts](/assets/image/tarkov/material/WeaponPartsIcon.png) x1 Weapon parts + ![Gunpowder "Kite"](/assets/image/tarkov/material/Gunpowder_Icon.png) x1 Gunpowder "Kite"  
-제작대 2레벨 **2시간 13분**  
+작업대 레벨 2 **2시간 13분**  
 ![12/70 HP Slug "SuperFormance"](/assets/image/tarkov/bullet/12-70_HP_SF_icon.png) x120 12/70 HP Slug "SuperFormance"
 
 |12/70 HP Slug "SuperFormance"|![12/70 HP Slug "SuperFormance"](/assets/image/tarkov/bullet/12-70_HP_SF_icon.png)|
