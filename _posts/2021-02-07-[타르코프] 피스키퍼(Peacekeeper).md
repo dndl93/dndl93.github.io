@@ -11,7 +11,7 @@ tags: [타르코프]
 ---
 
 |피스키퍼(Peacekeeper)|![피스키퍼(Peacekeeper)](/assets/image/tarkov/NPC/PeacekeeperFullRes.jpg)|
-|--|--|
+|--:|:--|
 |**일반 정보**|
 |설명|타디우스 피우수트스키(Tadeusz Pilsudski)|
 |거점|터미널(Termianl)|
@@ -31,7 +31,7 @@ tags: [타르코프]
 **우호도 레벨 조건**
 
 |우호도 레벨|필요 레벨|필요 평판|필요 거래량($)|
-|--|--|--|--|
+|:--:|:--:|:--:|:--:|
 |레벨 2|10|0.00|13,000|
 |레벨 3|18|0.30|25,000|
 |레벨 4|29|0.60|32,000|
@@ -39,19 +39,19 @@ tags: [타르코프]
 **판매 상품**
 
 |우호도 레벨 1|
-|--|
+|:--:|
 |![피스키퍼 우호도 레벨 1 상품](/assets/image/tarkov/material/Peacekeeper1Stock.png)|
 
 |우호도 레벨 2|
-|--|
+|:--:|
 |![피스키퍼 우호도 레벨 2 상품](/assets/image/tarkov/material/Peacekeeper2Stock.png)|
 
 |우호도 레벨 3|
-|--|
+|:--:|
 |![피스키퍼 우호도 레벨 3 상품](/assets/image/tarkov/material/Peacekeeper3Stock.png)|
 
 |우호도 레벨 4|
-|--|
+|:--:|
 |![피스키퍼 우호도 레벨 4 상품](/assets/image/tarkov/material/Peacekeeper4Stock.png)|
 
 {% if site.disqus_shortname %}

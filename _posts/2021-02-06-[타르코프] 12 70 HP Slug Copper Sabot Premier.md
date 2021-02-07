@@ -11,7 +11,7 @@ tags: [타르코프]
 ---
 
 |12/70 HP Slug Copper Sabot Premier|![12/70 HP Slug Copper Sabot Premier](/assets/image/tarkov/bullet/12x70SLUG_CSP-icon.png)|
-|--|--|
+|--:|:--|
 ||![12/70 HP Slug Copper Sabot Premier](/assets/image/tarkov/bullet/12x70SLUG_CSP.png)|
 |**일반 정보**|
 |타입|슬러그|

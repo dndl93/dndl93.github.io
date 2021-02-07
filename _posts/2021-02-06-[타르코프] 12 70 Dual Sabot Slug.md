@@ -11,7 +11,7 @@ tags: [타르코프]
 ---
 
 |12/70 Dual Sabot Slug|![12/70 Dual Sabot Slug](/assets/image/tarkov/bullet/12-70_Dual_Sabot_icon.png)|
-|--|--|
+|--:|:--|
 ||![12/70 Dual Sabot Slug](/assets/image/tarkov/bullet/12-70_Dual_Sabot.png)|
 |**일반 정보**|
 |타입|슬러그|

@@ -11,7 +11,7 @@ tags: [타르코프]
 ---
 
 |12/70 FTX Custom LIte Slug|![12/70 FTX Custom LIte Slug](/assets/image/tarkov/bullet/FTX_Slug_Icon.png)|
-|--|--|
+|--:|:--|
 ||![12/70 FTX Custom LIte Slug](/assets/image/tarkov/bullet/FTX_Slug.png)|
 |**일반 정보**|
 |타입|슬러그|

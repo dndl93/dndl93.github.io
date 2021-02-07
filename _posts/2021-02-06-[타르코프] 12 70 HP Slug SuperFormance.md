@@ -16,7 +16,7 @@ tags: [타르코프]
 ![12/70 HP Slug "SuperFormance"](/assets/image/tarkov/bullet/12-70_HP_SF_icon.png) x120 12/70 HP Slug "SuperFormance"
 
 |12/70 HP Slug "SuperFormance"|![12/70 HP Slug "SuperFormance"](/assets/image/tarkov/bullet/12-70_HP_SF_icon.png)|
-|--|--|
+|--:|:--|
 ||![12/70 HP Slug "SuperFormance"](/assets/image/tarkov/bullet/12-70_HP_SF.png)|
 |**일반 정보**|
 |타입|슬러그|

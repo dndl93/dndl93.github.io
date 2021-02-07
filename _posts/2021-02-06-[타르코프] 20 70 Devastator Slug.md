@@ -11,7 +11,7 @@ tags: [타르코프]
 ---
 
 |20/70 Devastator Slug|![20/70 Devastator Slug](/assets/image/tarkov/bullet/2070DevastatorSlugIcon.png)|
-|--|--|
+|--:|:--|
 ||![20/70 Devastator Slug](/assets/image/tarkov/bullet/2070DevastatorSlug.png)|
 |**일반 정보**|
 |타입|슬러그|
